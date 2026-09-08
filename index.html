@@ -687,6 +687,41 @@
         </div>
       </article>
 
+      <!-- Крылова О. -->
+      <article class="spec-card spec-card--photo reveal">
+        <div class="spec-photo spec-photo--initials">
+          <span aria-hidden="true">КО</span>
+        </div>
+        <div class="spec-card-body">
+          <div class="spec-price"><span class="p">от 6 000 ₽</span><span class="d">за сессию — 90 мин</span></div>
+          <h3 class="spec-name">Крылова Ольга</h3>
+          <p class="spec-teaser">Практикующий психолог, телесно-голосовой терапевт, травматерапевт, автор
+            терапевтических песен. Работает в интегративном подходе: голос, тело, творчество, поддержка в
+            кризисах...</p>
+          <div class="spec-actions">
+            <button class="spec-read" onclick="openSpecModal('modal-krylova')">Читать полностью</button>
+            <a href="#lead" class="btn sm">Записаться</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Малышко Ф. -->
+      <article class="spec-card spec-card--photo reveal">
+        <div class="spec-photo">
+          <img src="images/malyshko.webp" alt="Малышко Фёдор" loading="lazy">
+        </div>
+        <div class="spec-card-body">
+          <div class="spec-price"><span class="p">от 6 000 ₽</span><span class="d">за сессию — 90 мин</span></div>
+          <h3 class="spec-name">Малышко Фёдор</h3>
+          <p class="spec-teaser">Практикующий психолог-консультант. Работает в стратегическом, краткосрочном и
+            мультимодальном подходах. Специализация — телесно-ориентированная психотерапия и телесный коучинг...</p>
+          <div class="spec-actions">
+            <button class="spec-read" onclick="openSpecModal('modal-malyshko')">Читать полностью</button>
+            <a href="#lead" class="btn sm">Записаться</a>
+          </div>
+        </div>
+      </article>
+
     </div>
   </section>
 
@@ -1009,6 +1044,49 @@ IFS, кросс-коучинг и др.</p>
 Автор образовательных программ:
 «Педагогика и психология танцевальных занятий»; «Структура и психология занятий Body Flow»; «Руки продолжение
 сердца».</p>
+      <a href="#lead" class="btn" onclick="closeSpecModal(this)">Записаться</a>
+    </div>
+  </div>
+
+  <div class="spec-modal-backdrop" id="modal-krylova" onclick="if(event.target===this)closeSpecModal(this)">
+    <div class="spec-modal">
+      <button class="spec-modal-close" aria-label="Закрыть" onclick="closeSpecModal(this)">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#0D74D0" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6 6l12 12M18 6L6 18"></path></svg>
+      </button>
+      <div class="spec-avatar spec-avatar--initials" aria-hidden="true">КО</div>
+      <h3>Крылова Ольга</h3>
+      <div class="spec-price"><span class="p">от 6 000 ₽</span><span class="d">за сессию — 90 мин</span></div>
+      <p class="spec-modal-body">Практикующий психолог, телесно-голосовой терапевт, травматерапевт, автор
+терапевтических песен. Стаж практики — 6 лет.
+
+Работает в интегративном подходе: работа с голосом, работа с эмоциональным состоянием, телесная психология,
+терапия творчеством, поддержка в кризисах.
+
+Образование: высшее — экономическое (мировая экономика); переподготовка — психолог-консультант.
+В настоящее время обучается в магистратуре по направлению «Семейное консультирование».</p>
+      <a href="#lead" class="btn" onclick="closeSpecModal(this)">Записаться</a>
+    </div>
+  </div>
+
+  <div class="spec-modal-backdrop" id="modal-malyshko" onclick="if(event.target===this)closeSpecModal(this)">
+    <div class="spec-modal">
+      <button class="spec-modal-close" aria-label="Закрыть" onclick="closeSpecModal(this)">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#0D74D0" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6 6l12 12M18 6L6 18"></path></svg>
+      </button>
+      <div class="spec-avatar spec-avatar--photo">
+        <img src="images/malyshko.webp" alt="Малышко Фёдор">
+      </div>
+      <h3>Малышко Фёдор</h3>
+      <div class="spec-price"><span class="p">от 6 000 ₽</span><span class="d">за сессию — 90 мин</span></div>
+      <p class="spec-modal-body">Практикующий психолог-консультант. Стаж практики — 7 лет.
+Работает в рамках стратегического, краткосрочного и мультимодального подходов.
+Специализируется на телесно-ориентированной психотерапии (ТОП) и телесном коучинге.
+Также карьерный консультант и карьерный коуч.
+
+Ключевые навыки: телесно-ориентированный подход; карьерное консультирование — поиск себя, смена направления
+деятельности. Экспертиза на стыке сфер: психология, карьерное консультирование, управление проектами.
+
+Образование: переподготовка «Психолог-консультант с элементами коучинга».</p>
       <a href="#lead" class="btn" onclick="closeSpecModal(this)">Записаться</a>
     </div>
   </div>

@@ -765,6 +765,9 @@ footer { max-width: 1200px; margin: 0 auto; padding: 0 40px 56px; }
 .spec-card--photo { padding: 0; overflow: hidden; }
 .spec-photo { position: relative; width: 100%; padding-top: 100%; background: #F3EFE7; flex: none; }
 .spec-photo img { display: block; position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.spec-photo--initials { display: grid; place-items: center; background: linear-gradient(135deg, #EAF3FC 0%, #F3EFE7 100%); }
+.spec-photo--initials span { position: absolute; inset: 0; display: grid; place-items: center; font-size: 56px; font-weight: 800; letter-spacing: 2px; color: #0D74D0; opacity: 0.55; }
+.spec-avatar--initials { border-radius: 50%; display: grid; place-items: center; background: linear-gradient(135deg, #EAF3FC 0%, #F3EFE7 100%); font-size: 26px; font-weight: 800; letter-spacing: 1px; color: #0D74D0; }
 .spec-card-body { padding: 24px; display: flex; flex-direction: column; flex: 1; }
 .spec-price { display: inline-flex; align-items: baseline; gap: 6px; margin-bottom: 8px; }
 .spec-price .p { font-size: 17px; font-weight: 800; color: #0D74D0; }
